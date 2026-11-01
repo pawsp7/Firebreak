@@ -6,6 +6,8 @@ A web app that tells any Alberta community how much wildfire danger it is in ove
 
 Firebreak is a planning companion, **not** an official warning. Please follow [Alberta Emergency Alert](https://www.alberta.ca/alberta-emergency-alert) and local authorities — they have the last word.
 
+**Live:** [firebreak-eight.vercel.app](https://firebreak-eight.vercel.app) · Jasper replay: [/?mode=demo&view=map&q=Jasper](https://firebreak-eight.vercel.app/?mode=demo&view=map&q=Jasper)
+
 ![Live map](screenshots/02-live-map.png)
 
 ## Why this exists

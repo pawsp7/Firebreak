@@ -21,6 +21,8 @@ Firebreak is that sentence, drawn on a map, with the math in the open.
 - **Check in** by town or postal code.
 - **Jasper 2024 demo tape** so the two-minute video never depends on a live API, plus cached fallbacks if FIRMS/CWFIS/Open-Meteo fail.
 
+**Live:** [https://firebreak-eight.vercel.app](https://firebreak-eight.vercel.app)
+
 It is **not** an official warning system.
 
 ## How we built it
