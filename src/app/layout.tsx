@@ -32,9 +32,9 @@ const pa = Noto_Sans_Gurmukhi({
 });
 
 export const metadata: Metadata = {
-  title: "Firebreak — See the fire line before it finds you",
+  title: "Firebreak — See what's ahead, and look after each other",
   description:
-    "A 24-hour wildfire danger map for Alberta communities: live hotspots, wind-driven spread, risk scores, and escape routes. Not an official warning system.",
+    "A calm 24-hour wildfire outlook for Alberta communities: live hotspots, wind-driven spread, neighbourly briefings, and safer roads. A planning companion, not an official warning.",
   applicationName: "Firebreak",
   authors: [{ name: "STEMergent Hacks 2026 — SAIT Software Development" }],
   keywords: ["wildfire", "Alberta", "Jasper", "evacuation", "FIRMS", "CWFIS"],

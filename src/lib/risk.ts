@@ -3,7 +3,7 @@
  *
  * The score is a sum of five capped factors. Nothing is hidden in a neural
  * net: if Jasper is 86, you can read that 32 of those points are "the 24 h
- * cone reaches town", 18 are "the wind is aimed at you", and so on.
+ * outlook reaches town", 18 are "the wind is blowing toward town", and so on.
  *
  * Equity note: being rural or Indigenous does **not** raise the fire score.
  * Isolation shows up as the evacuation factor (road access) and in the
@@ -134,9 +134,9 @@ export function scoreCommunity(
       points: proxNow,
       max: RISK_WEIGHTS.proximityNow,
       why: insideNow
-        ? "Inside the current fire perimeter / hotspot cluster."
+        ? "This community is inside a mapped fire area right now."
         : Number.isFinite(nearestKm)
-          ? `Nearest fire is ${nearestKm < 10 ? nearestKm.toFixed(1) : Math.round(nearestKm)} km away.`
+          ? `Nearest mapped fire is ${nearestKm < 10 ? nearestKm.toFixed(1) : Math.round(nearestKm)} km away.`
           : "No active fire mapped in the region.",
     },
     {
@@ -144,18 +144,18 @@ export function scoreCommunity(
       points: proxFc,
       max: RISK_WEIGHTS.proximityForecast,
       why: insideForecast
-        ? "The projected spread cone reaches this community at this hour."
+        ? "The forecast spread reaches this community at this hour."
         : Number.isFinite(forecastKm)
-          ? `Projected fire line is ${forecastKm < 10 ? forecastKm.toFixed(1) : Math.round(forecastKm)} km away at this hour.`
-          : "No spread cone in range.",
+          ? `Forecast spread is ${forecastKm < 10 ? forecastKm.toFixed(1) : Math.round(forecastKm)} km away at this hour.`
+          : "No forecast spread in range.",
     },
     {
       key: "windAlignment",
       points: wind.points,
       max: RISK_WEIGHTS.windAlignment,
       why: wind.downwind
-        ? `Wind from ${Math.round(weather.windFromDeg)}° pushes the head fire toward town.`
-        : `Wind from ${Math.round(weather.windFromDeg)}° is not aimed at this community.`,
+        ? `Wind from ${Math.round(weather.windFromDeg)}° is blowing toward town.`
+        : `Wind from ${Math.round(weather.windFromDeg)}° is not blowing toward this community.`,
     },
     {
       key: "dryness",
@@ -169,10 +169,10 @@ export function scoreCommunity(
       max: RISK_WEIGHTS.evacuation,
       why:
         community.roadAccess <= 2
-          ? "Few roads out — a closure can trap residents."
+          ? "Fewer paved ways out — a closure would ask more of residents."
           : community.roadAccess === 3
-            ? "Limited highway options; one closure is a problem."
-            : "Multiple paved routes out of town.",
+            ? "A few highway options; one closure would matter."
+            : "Several paved ways out of town.",
     },
   ];
 

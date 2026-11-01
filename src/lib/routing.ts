@@ -1,5 +1,5 @@
 /**
- * Escape routes via public OSRM, with a fire-avoidance score.
+ * Safer-road options via public OSRM, with a fire-avoidance score.
  *
  * OSRM cannot natively "exclude this polygon", so we:
  *   1. ask for the driving route (and alternatives) to 2–3 destinations
@@ -61,27 +61,27 @@ function scoreLine(coordinates: number[][], polygons: GeoJsonPolygon[]): {
   if (inside || minKm < 1) {
     return {
       level: "leave",
-      why: "This road runs through or along the projected fire line.",
+      why: "This road currently passes near the projected spread. Another option below may feel calmer.",
       minKm: 0,
     };
   }
   if (minKm < 8) {
     return {
       level: "prepare",
-      why: `Comes within ${minKm.toFixed(1)} km of the projected fire line.`,
+      why: `Comes within ${minKm.toFixed(1)} km of the projected spread.`,
       minKm,
     };
   }
   if (minKm < 25) {
     return {
       level: "watch",
-      why: `Stays about ${Math.round(minKm)} km from the projected fire line.`,
+      why: `Stays about ${Math.round(minKm)} km from the projected spread.`,
       minKm,
     };
   }
   return {
     level: "safe",
-    why: `Stays ${Math.round(minKm)} km from the projected fire line.`,
+    why: `Stays ${Math.round(minKm)} km from the projected spread.`,
     minKm,
   };
 }

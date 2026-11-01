@@ -1,10 +1,10 @@
 # Firebreak
 
-**See the fire line before it finds you.**
+**See what's ahead, and look after each other.**
 
 A web app that tells any Alberta community how much wildfire danger it is in over the next 24 hours, why that score exists, and which roads still look like roads. Built as a solo STEMergent Hacks 2026 entry by a SAIT Software Development student in Calgary.
 
-Firebreak is **not** an official warning system. Always follow [Alberta Emergency Alert](https://www.alberta.ca/alberta-emergency-alert) and local authorities.
+Firebreak is a planning companion, **not** an official warning. Please follow [Alberta Emergency Alert](https://www.alberta.ca/alberta-emergency-alert) and local authorities — they have the last word.
 
 ![Live map](screenshots/02-live-map.png)
 
@@ -57,7 +57,7 @@ flowchart LR
   subgraph ui [Next.js + MapLibre]
     Map[Live map + wind particles]
     Slider[Hour slider]
-    Card["Am I safe?"]
+    Card["Check in"]
   end
   FIRMS --> Model
   CWFIS --> Model
@@ -125,9 +125,9 @@ Cursor Grok 4.6 (cloud agent) assisted with scaffolding, copy, translations, and
 | --- | --- |
 | Landing / problem | `screenshots/01-landing.png` |
 | Live map | `screenshots/02-live-map.png` |
-| Am I safe? | `screenshots/03-am-i-safe.png` |
+| Check-in card | `screenshots/03-am-i-safe.png` |
 | Community briefing | `screenshots/04-briefing.png` |
-| Escape routes | `screenshots/05-escape-routes.png` |
+| Safer roads | `screenshots/05-escape-routes.png` |
 | Jasper replay | `screenshots/06-jasper-replay.png` |
 | Community list | `screenshots/07-community-list.png` |
 | Model / about | `screenshots/08-about-model.png` |

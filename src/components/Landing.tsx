@@ -46,15 +46,9 @@ export function Landing({ lang, onLang, onLookup, onLive, onDemo }: Props) {
       </header>
 
       <section className="hero">
-        <p className="kicker">Alberta · 24-hour fire line</p>
+        <p className="kicker">{copy.kicker}</p>
         <h1>{copy.tagline}</h1>
-        <p className="lede">
-          Official maps show where a wildfire <em>was</em>. Firebreak fuses live
-          satellite hotspots, wind, and roads to show where it is <em>going</em> —
-          and how a community gets out. Built for residents, including rural,
-          Indigenous, and non-English-speaking Albertans. Not an official warning
-          system.
-        </p>
+        <p className="lede">{copy.lede}</p>
         <form className="search-row" onSubmit={submit} role="search">
           <label className="sr-only" htmlFor="landing-q">
             {copy.amISafe}

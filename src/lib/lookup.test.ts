@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { lookup } from "./lookup";
 
-describe("Am I safe lookup", () => {
+describe("community check-in lookup", () => {
   it("resolves Jasper by name in demo mode", async () => {
     const hit = await lookup("Jasper", "demo", "en", 20);
     expect(hit.match).toBe("community");
@@ -25,6 +25,6 @@ describe("Am I safe lookup", () => {
   it("builds a French briefing for Fox Lake", async () => {
     const hit = await lookup("Fox Lake", "demo", "fr", 12);
     expect(hit.community?.id).toBe("fox-lake");
-    expect(hit.briefing?.doNow).toMatch(/Aucune|alerte|sacs|Surveillez/i);
+    expect(hit.briefing?.doNow).toMatch(/Gardez|aperçu|alertes|médicaments|alerte/i);
   });
 });

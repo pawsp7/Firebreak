@@ -500,7 +500,7 @@ function BriefingBody({
       </ul>
       <h3 className="small">{copy.routes}</h3>
       {routes.length === 0 ? (
-        <p className="muted small">Select a community to load roads.</p>
+        <p className="muted small">{copy.loadRoads}</p>
       ) : (
         routes.map((r) => (
           <div className="route" key={r.id}>
@@ -552,9 +552,10 @@ function AboutModal({
           </button>
         </div>
         <p className="small">
-          Firebreak grows a wind-driven ellipse from each hotspot cluster. The
-          math is small enough to read aloud in a demo, and honest about what it
-          is not: no DEM, no spotting, no suppression.
+          Firebreak grows a wind-driven ellipse from each hotspot cluster so
+          neighbours can see the next hours without a black box. The math is
+          small enough to read aloud, and honest about what it is not: no DEM,
+          no spotting, no suppression.
         </p>
         <pre>{`ROS = R0(fuel) × (U/10)^1.15 × ((100−RH)/60) × Ft
 LB  = 1 + 8.729 × (1 − e^(−0.0302 U))^2.155

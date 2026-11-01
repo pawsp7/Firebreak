@@ -7,7 +7,7 @@ Deadline: 15 November 2026, 8:30 PM MST
 
 On 1 May 2016 a two-hectare fire seven kilometres from Fort McMurray became, in two days, the most expensive natural disaster in Canadian history. In 2023 Alberta burned 2.2 million hectares and moved 38,000 people. On 22 July 2024 lightning started fires north and south of Jasper; forty-eight hours later a third of the town was gone.
 
-I grew up in a province that already has excellent fire maps — Alberta Wildfire, CWFIS, NASA FIRMS. What they do not give a resident at 11 p.m. is one sentence: **are we in the next 24 hours of this fire, and which road is still a road?** That sentence is sharper if you live on a single highway, if English is not the language in the house, or if the official alert has not caught up with the wind yet.
+I grew up in a province that already has excellent fire maps — Alberta Wildfire, CWFIS, NASA FIRMS. What they do not always give a resident at 11 p.m. is one calm sentence: **how do the next 24 hours look, and which road still looks like a road?** That sentence matters more if you live on a single highway, if English is not the language in the house, or if the official alert has not caught up with the wind yet.
 
 Firebreak is that sentence, drawn on a map, with the math in the open.
 
@@ -16,9 +16,9 @@ Firebreak is that sentence, drawn on a map, with the math in the open.
 - **Live map (MapLibre GL)** of Alberta: NASA FIRMS hotspots, CWFIS Fire M3 perimeters, animated wind particles from Open-Meteo.
 - **24-hour spread forecast**: a wind-driven ellipse (simplified Rothermel × FBP length-to-breadth) that you can scrub hour by hour. Overnight humidity recovery actually pauses the cone.
 - **Community risk scores 0–100** for ~100 Alberta places, including First Nations and Métis settlements, with a **why** bar for each factor.
-- **Escape routes** via OSRM that are scored against the predicted fire line, plus nearby reception centres.
-- **Plain-language briefing** — what's happening, what to do now, what to pack — in English, French, Plains Cree, Punjabi, Tagalog, and Arabic, always linking [Alberta Emergency Alert](https://www.alberta.ca/alberta-emergency-alert).
-- **Am I safe?** lookup by town or postal code.
+- **Safer roads** via OSRM, scored against the predicted spread, plus nearby places to check in.
+- **A neighbourly briefing** — what's going on, a few next steps, what helps to pack — in English, French, Plains Cree, Punjabi, Tagalog, and Arabic, always linking [Alberta Emergency Alert](https://www.alberta.ca/alberta-emergency-alert).
+- **Check in** by town or postal code.
 - **Jasper 2024 demo tape** so the two-minute video never depends on a live API, plus cached fallbacks if FIRMS/CWFIS/Open-Meteo fail.
 
 It is **not** an official warning system.

@@ -8,7 +8,7 @@ Record in 1920×1080, dark room, system clock irrelevant. Start on `/`. Speak sl
 
 ## 0:00–0:18 — Hook (landing)
 
-**Show:** landing, headline *See the fire line before it finds you.*, three cards visible.
+**Show:** landing, headline *See what's ahead, and look after each other.*, three cards visible.
 
 > On July 22, 2024, lightning started a fire twenty-two kilometres south of Jasper. Forty-eight hours later, a third of the town was gone.
 >
@@ -34,37 +34,37 @@ Record in 1920×1080, dark room, system clock irrelevant. Start on `/`. Speak sl
 
 **Advance to ~+42 h** (24 July midday). Town sits in the cone. Score climbs.
 
-> By the hour the fire reached town, Firebreak would have been saying *prepare*, then *leave*, with a why: the cone is on you, the wind is aimed at you, and there are two paved ways out.
+> By the hour the fire reached town, Firebreak would have been saying *get ready*, then *time to go*, with a why you can read: the outlook is close, the wind is toward town, and there are two paved ways out.
 
 ---
 
-## 0:48–1:12 — Am I safe?
+## 0:48–1:12 — Check in
 
 **Type in search:** `Jasper` (already selected) or `T0E 1E0`.
 
-**Show:** the answer card — big number, *Prepare* / *Leave*, one sentence.
+**Show:** the answer card — big number, *Get ready* / *Time to go*, one calm sentence.
 
-> Am I safe? Town name or postal code. A card, not a dashboard. This is for a parent packing a car, including in Punjabi, Tagalog, Arabic, French, or nêhiyawêwin.
+> Check in: town name or postal code. A card, not a dashboard. This is for a parent packing a car, including in Punjabi, Tagalog, Arabic, French, or nêhiyawêwin.
 >
-> And the first line of every briefing is the official one: follow Alberta Emergency Alert. We are not the government.
+> And the first line of every briefing is the official one: please follow Alberta Emergency Alert. We are not the government.
 
 **Switch language to French for two seconds**, then back to English (or Arabic to show RTL).
 
 ---
 
-## 1:12–1:38 — Escape routes
+## 1:12–1:38 — Safer roads
 
 **Scroll the briefing panel** to routes.
 
-> Three ways out, scored against the cone.
+> Three ways out, scored against the cone — so you can pick the calmer one.
 
-**Point to Highway 16 east — Hinton** (watch / safer).
+**Point to Highway 16 east — Hinton** (stay aware / safer).
 
 > East, to Hinton recreation centre — the road people actually used.
 
-**Point to Highway 93 south** (leave / red).
+**Point to Highway 93 south** (time to go / red).
 
-> South, the Icefields Parkway, runs *into* the ignition. Firebreak marks it leave. That is the whole product: do not drive toward the head fire because it is the road you know.
+> South, the Icefields Parkway, runs toward the ignition. Firebreak marks it so you can choose another road, not because it is the one you know.
 
 ---
 
@@ -74,11 +74,11 @@ Record in 1920×1080, dark room, system clock irrelevant. Start on `/`. Speak sl
 
 > Fort McMurray 2016. Forty-eight communities in 2023. Jasper 2024. The people who get the least time are on one road, often not in English.
 >
-> Firebreak is a student project. It will never replace a Type 1 team. It *will* show the fire line before it finds you — and it will tell you, in your language, which way is still out.
+> Firebreak is a student project. It will never replace a Type 1 team. It *will* help neighbours see the next hours — in their language — and which way still looks like a road.
 
 **Hold** on the map + disclaimer strip.
 
-> Not an official warning. Alberta Emergency Alert. Then get out.
+> Not an official warning. Please follow Alberta Emergency Alert. Then look after each other.
 
 **End card (3 s):** Firebreak · firebreak map · STEMergent Hacks 2026 · SAIT
 
